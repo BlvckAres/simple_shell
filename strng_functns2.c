@@ -18,11 +18,12 @@ xy = 0;
 dest[xy] = '\0';
 return (dest);
 }
+
 /**
-sheol * _strcat - Concat Two strng
+ * _strcat - Concat Two strng
  * @dest:First strng
  * @src:Second strng
- * Return:First strng + Second strng Char *
+ * Return:First strng + Second strng Char
  */
 char *_strcat(char *dest, char *src)
 {
@@ -48,19 +49,19 @@ char *_strcat(char *dest, char *src)
  * @c:Char To Search For
  * Return: Pointer To Char*
  */
+
 char *_strchr(char *s, char c)
 {
-
-	do		{
-
+	do {
 		if (*s == c)
-			{
+		{
 			break;
-			}
-		}	while (*s++);
+		}
+	}	while (*s++);
 
 return (s);
 }
+
 /**
  * _strncmp - Compare Amount (n) Of chars Of Two strngs.
  * @s1: A strng.
